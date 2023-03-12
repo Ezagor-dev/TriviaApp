@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Ezagor_abstract_soft_colors_question_mark_1366c568-0f6f-49c0-8adf-8f399870b171.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
