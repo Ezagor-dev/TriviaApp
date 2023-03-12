@@ -113,7 +113,7 @@
                         <outlet property="questionLabel" destination="vgf-FR-7dp" id="hMe-Hh-tl3"/>
                         <outlet property="scoreLabel" destination="bui-is-3N0" id="iJk-wu-KOq"/>
                         <outlet property="thirdButton" destination="QSe-kv-pZR" id="NsK-5L-aDL"/>
-                        <outlet property="trueButton" destination="QSe-kv-pZR" id="1ee-ao-LMf"/>
+                        <outlet property="trueButton" destination="4I8-BM-IjO" id="m8S-y6-V3F"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
