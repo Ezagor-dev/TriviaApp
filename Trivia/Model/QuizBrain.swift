@@ -9,6 +9,8 @@ import Foundation
 
 struct QuizBrain{
     var questionNumber = 0
+    var score = 0
+    
     
     let quiz = [
         Question(q: "The Great Wall of China is visible from space.", a: "False"),
@@ -28,9 +30,10 @@ struct QuizBrain{
     
     
     
-    func checkAnswer(_ userAnswer: String) -> Bool {
+    mutating func checkAnswer(_ userAnswer: String) -> Bool {
         if userAnswer == quiz[questionNumber].answer{
             //User got it right
+            score += 1
             return true
         }else{
             //User got it wrong
@@ -59,7 +62,15 @@ struct QuizBrain{
             
         }else{
             questionNumber = 0
+            score = 0
         }
     }
     
-}
+    // let userGotItRight = quizBrain.checkAnswer(userAnswer)
+    
+    func getScore() -> Int{
+        return score
+        }
+    }
+    
+
