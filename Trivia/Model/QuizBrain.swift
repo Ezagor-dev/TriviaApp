@@ -8,6 +8,8 @@
 import Foundation
 
 struct QuizBrain{
+    var questionNumber = 0
+    
     let quiz = [
         Question(q: "The Great Wall of China is visible from space.", a: "False"),
         Question(q: "The smallest country in the world by land area is Monaco.", a: "False"),
@@ -23,7 +25,7 @@ struct QuizBrain{
         
     ]
     
-    var questionNumber = 0
+    
     
     
     func checkAnswer(_ userAnswer: String) -> Bool {
@@ -51,7 +53,7 @@ struct QuizBrain{
         return Float(questionNumber + 1) / Float(quiz.count)
     }
     
-    func nextQuestion(){
+    mutating func nextQuestion(){
         if(questionNumber + 1 < quiz.count){
             questionNumber += 1
             
