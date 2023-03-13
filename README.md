@@ -2,9 +2,9 @@
 ![image](https://user-images.githubusercontent.com/45847677/222907488-a004f938-1f0e-4f0c-a2eb-06207db81efa.png)
 
 
-# Trivia-iOS13
+# TriviaApp
 
-Trivia-iOS13 is an iOS app that allows users to play trivia quizzes on their iPhone or iPad. The app is built using Swift and uses the [Open Trivia Database API](https://opentdb.com/) to fetch trivia questions.
+TriviaApp is an iOS app that allows users to play trivia quizzes on their iPhone or iPad. The app is built using Swift and uses the [Open Trivia Database API](https://opentdb.com/) to fetch trivia questions.
 
 ## Features
 
